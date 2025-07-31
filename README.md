@@ -8,7 +8,7 @@ add-page plugins for magic-dash
 3. 创建页面默认模板文件
 
 
-### 使用方法
+### 快速使用
 
 ```cmd
 python -m utils.add_page --name NEW_PAGE_NAME
@@ -23,9 +23,9 @@ python -m utils.add_page --name NEW_PAGE_NAME
 | 参数 | 是否必需 | 默认值 | 描述 |
 |------|---------|--------|------|
 | `--name` | 是 | 无 | 页面名称 |
-| `--title` | 否 | 与 --name 相同 | 页面标题 |
-| `--describe` | 否 | 自动生成描述信息 | 页面描述 |
-| `--url` | 否 | /core/{page_name} | 页面 URL 路径 |
+| `--title` | 否 | --name | 页面标题 |
+| `--describe` | 否 | --name | 代码注释内容 |
+| `--url` | 否 | /core/{--name} | 页面 URL 路径 |
 | `--icon` | 否 | antd-menu | 页面图标 |
 
 
